@@ -1,0 +1,113 @@
+
+body{
+    margin: 0px;
+    padding: 0px;
+    height: 700px;
+    background-color: #333;
+   
+  }
+
+.banner{
+    background: url(../Site/img/img_japon.jpg) no-repeat;
+    background-size: cover;
+    height: 200px;
+    border-style: inset;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+article{
+    background-color: #c5b9b902;
+    margin: 6%;
+    border-radius: 20px;
+    border-style: inset;
+    text-align: center;
+    box-shadow: 0px -10px 100px rgba(110, 108, 108, 0.904); ;
+}
+
+footer{
+    background: #131212;
+    position:absolute;   
+    bottom:0;   
+    width:100%;  
+    padding-top:50px; 
+    box-shadow: 0px -10px 12px rgb(22, 20, 20);
+    background: linear-gradient(to top, #000000 0%, #ffffff 127%);
+    margin: 0px;
+
+}
+footer p{
+    color: beige;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+  }
+
+.subnav {
+    float: left;
+    overflow: hidden;
+  }
+
+  .subnav .subnavbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+  }
+
+  .navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  .subnav-content {
+    display: none;
+    position: absolute;
+    left: 0;
+    background-color: rgb(97, 91, 91);
+    width: 100%;
+    z-index: 1;
+  }
+
+  .subnav-content a {
+    float: left;
+    color: white;
+    text-decoration: none;
+  }
+
+  .subnav:hover .subnav-content {
+    display: block;
+  }
+  
+  .navbar a:hover, .subnav:hover .subnavbtn {
+    background-color: red;
+  }
+
+  aside{
+    width: 40%;
+    padding-left: .5rem;
+    margin-left: .5rem;
+    float: right;
+    box-shadow: inset 5px 0 5px -5px #29627e;
+    font-style: italic;
+    color: #29627e;
+  }
+
+  aside p{
+    margin: .5rem;
+  }
